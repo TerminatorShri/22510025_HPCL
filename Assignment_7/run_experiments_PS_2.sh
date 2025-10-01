@@ -13,7 +13,7 @@ for N in "${sizes[@]}"; do
     done
 done
 
-echo "All experiments completed. Results saved in results_matrix_matrix.csv"
+echo "All experiments completed. Results saved in PS_2.csv"
 
 echo "---------------------------------------------"
 printf "| %-13s | %-12s | %-10s |\n" "Matrix Size" "Processes" "Time(s)"
